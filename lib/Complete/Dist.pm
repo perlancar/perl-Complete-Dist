@@ -37,6 +37,7 @@ _
     result_naked => 1,
 };
 sub complete_dist {
+    require Complete::Util;
     require Dist::Util;
 
     my %args = @_;
