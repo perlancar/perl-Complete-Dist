@@ -36,9 +36,7 @@ _
     },
     result_naked => 1,
 };
-sub complete_module {
-    require Complete::Path;
-
+sub complete_dist {
     my %args = @_;
 
     my $word = $args{word} // '';
