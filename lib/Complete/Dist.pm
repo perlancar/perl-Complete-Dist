@@ -37,6 +37,8 @@ _
     result_naked => 1,
 };
 sub complete_dist {
+    require Dist::Util;
+
     my %args = @_;
 
     my $word = $args{word} // '';
