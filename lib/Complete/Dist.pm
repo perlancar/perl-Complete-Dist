@@ -63,8 +63,3 @@ sub complete_dist {
  # -> ['Text-ANSI-Util', 'Text-ANSITable']
 
 
-=head1 TODO
-
-$OPT_SHORTCUT_PREFIXES like in Complete::Module?
-
-=cut
