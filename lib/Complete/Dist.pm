@@ -8,7 +8,7 @@ use strict;
 use warnings;
 #use Log::Any '$log';
 
-use Complete;
+use Complete::Setting;
 
 our %SPEC;
 require Exporter;
@@ -43,7 +43,7 @@ sub complete_dist {
     my %args = @_;
 
     my $word = $args{word} // '';
-    my $ci = $args{ci} // $Complete::OPT_CI;
+    my $ci = $args{ci} // $Complete::Setting::OPT_CI;
 
     $word =~ s!(::|-|/|\.)!-!g;
     Complete::Util::complete_array_elem(
@@ -61,5 +61,3 @@ sub complete_dist {
  use Complete::Dist qw(complete_dist);
  my $res = complete_dist(word => 'Text-AN');
  # -> ['Text-ANSI-Util', 'Text-ANSITable']
-
-
