@@ -1,5 +1,13 @@
 Revision history for Complete-Dist
 
+0.06    2015-11-29 (PERLANCAR)
+
+	- [Removed] Remove option 'ci' (one can alternatively set global
+	  behavior of ci as well as other options, see Complete::Common).
+
+        - Update to Complete::Common 0.18.
+
+
 0.05    2015-09-09 (PERLANCAR)
 
 	- No functional changes.

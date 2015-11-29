@@ -39,7 +39,6 @@ sub complete_dist {
     my %args = @_;
 
     my $word = $args{word} // '';
-    my $ci = $args{ci} // $OPT_CI;
 
     $word =~ s!(::|-|/|\.)!-!g;
     Complete::Util::complete_array_elem(
