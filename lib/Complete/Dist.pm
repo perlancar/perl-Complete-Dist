@@ -8,7 +8,7 @@ use strict;
 use warnings;
 #use Log::Any '$log';
 
-use Complete::Setting;
+use Complete::Common qw(:all);
 
 our %SPEC;
 require Exporter;
@@ -29,10 +29,6 @@ _
             req => 1,
             pos => 0,
         },
-        ci => {
-            summary => 'Whether to do case-insensitive search',
-            schema  => 'bool*',
-        },
     },
     result_naked => 1,
 };
@@ -43,13 +39,12 @@ sub complete_dist {
     my %args = @_;
 
     my $word = $args{word} // '';
-    my $ci = $args{ci} // $Complete::Setting::OPT_CI;
+    my $ci = $args{ci} // $OPT_CI;
 
     $word =~ s!(::|-|/|\.)!-!g;
     Complete::Util::complete_array_elem(
         word  => $word,
         array => [Dist::Util::list_dists()],
-        ci    => $args{ci},
     );
 }
 
