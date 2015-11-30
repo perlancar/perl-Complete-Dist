@@ -1,5 +1,12 @@
 Revision history for Complete-Dist
 
+0.07    2015-11-30 (PERLANCAR)
+
+	- No functional changes.
+
+	- Bump prereq version Complete::Common to 0.21 [CT].
+
+
 0.06    2015-11-29 (PERLANCAR)
 
 	- [Removed] Remove option 'ci' (one can alternatively set global
