@@ -1,11 +1,11 @@
-0.07    2015-11-30 (PERLANCAR)
+0.07    2015-11-30  Released-By: PERLANCAR
 
 	- No functional changes.
 
 	- Bump prereq version Complete::Common to 0.21 [CT].
 
 
-0.06    2015-11-29 (PERLANCAR)
+0.06    2015-11-29  Released-By: PERLANCAR
 
 	- [Removed] Remove option 'ci' (one can alternatively set global
 	  behavior of ci as well as other options, see Complete::Common).
@@ -13,7 +13,7 @@
         - Update to Complete::Common 0.18.
 
 
-0.05    2015-09-09 (PERLANCAR)
+0.05    2015-09-09  Released-By: PERLANCAR
 
 	- No functional changes.
 
@@ -22,7 +22,7 @@
 	  requirement.
 
 
-0.04    2015-09-03 (PERLANCAR)
+0.04    2015-09-03  Released-By: PERLANCAR
 
 	- No functional changes.
 
@@ -31,14 +31,14 @@
 	  requirement.
 
 
-0.03    2015-01-03 (PERLANCAR)
+0.03    2015-01-03  Released-By: PERLANCAR
 
 	- No functional changes.
 
 	- Rebuild (Generate TODO.md).
 
 
-0.02    2014-12-28 (PERLANCAR)
+0.02    2014-12-28  Released-By: PERLANCAR
 
 	- No functional changes.
 
@@ -47,6 +47,6 @@
 	- [dzil] Remove unneeded plugin.
 
 
-0.01     2014-12-28 (PERLANCAR)
+0.01     2014-12-28  Released-By: PERLANCAR
 
          - First release.
