@@ -2,3 +2,4 @@ Complete-Dist-*
 .build
 *~
 nytprof*
+.DS_Store
